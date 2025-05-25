@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body theme="black">
+    <div class="main w-full">
+      <div data-color="black" class="home section w-full h-[200vh] relative">
+        <div class="w-full sticky top-0 left-0">
+          <nav
+            class="w-full z-[5] absolute top-0 left-0 flex items-center justify-between px-10 py-4"
+          >
+            <div
+              class="text-white text-[5vw] sm:text-[3vw] lg:text-[1.9vw] font-medium"
+            >
+              Significo
+            </div>
+            <ul
+              class="hidden lg:flex space-x-14 text-white font-medium text-[1.1vw]"
+            >
+              <li>
+                <a href="#" class="">About</a>
+              </li>
+              <li>
+                <a href="#" class="">Insights</a>
+              </li>
+              <li>
+                <a href="#" class="">Team</a>
+              </li>
+              <li>
+                <a href="#" class="">Careers</a>
+              </li>
+              <li>
+                <a href="#" class="bg-[#FF6014] px-4 py-2 rounded-sm"
+                  ><button>Contact Us</button></a
+                >
+              </li>
+            </ul>
+            <div class="lg:hidden text-white">
+              <!-- You can add a hamburger menu icon here if you want -->
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </div>
+          </nav>
+          <div
+            class="btmtext absolute z-[4] bottom-[7%] lg:left-[3%] px-10 lg:px-0 w-52 font-medium"
+          >
+            <h1>
+              We build big ideas. <br />
+              Software. Apps. Tools. <br />
+              For real people. Real lives.
+            </h1>
+          </div>
+          <div
+            style="--clip: 100%"
+            class="video w-full h-screen absolute z-[3] top-0 left-0 bg-black overflow-hidden"
+          >
+            <video
+              autoplay
+              loop
+              muted
+              src="./assets/heroVideo.mp4"
+              class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+            ></video>
+          </div>
+          <div
+            class="marqueecontainer w-full h-screen relative overflow-hidden"
+          >
+            <div
+              class="heading absolute top-[10%] left-1/2 -translate-x-1/2 w-64 text-center"
+            >
+              <h1 class="text-xl font-regular">
+                Crafting a new paradigm of healthcare, one that is
+              </h1>
+            </div>
+            <div
+              class="slidesm absolute scale-[3] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%]"
+            >
+              <div
+                class="row lft -translate-x-1/2 w-full flex items-center gap-10 whitespace-nowrap"
+              >
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    empathetic
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img1.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    useful
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img2.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    intuitive
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img3.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    empathetic
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img4.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    useful
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img5.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    intuitive
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img6.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row rgt -translate-x-1/3 w-full flex items-center gap-10 whitespace-nowrap"
+              >
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    empathetic
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img7.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    useful
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img8.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    intuitive
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img9.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    empathetic
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img10.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    useful
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img1.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    intuitive
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img2.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row lft -translate-x-2/3 w-full flex items-center gap-10 whitespace-nowrap"
+              >
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    empathetic
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img3.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    useful
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img4.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    intuitive
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img5.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    empathetic
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img6.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    useful
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img7.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    intuitive
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img8.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row rgt -translate-x-3/4 w-full flex items-center gap-10 whitespace-nowrap"
+              >
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    empathetic
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img9.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    useful
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img10.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    intuitive
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img1.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    empathetic
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img2.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    useful
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img3.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1
+                    class="font-semibold font-[Pp_Neue_Machina] text-6xl lg:text-8xl"
+                  >
+                    intuitive
+                  </h1>
+                  <div
+                    class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500"
+                  >
+                    <img
+                      class="w-full h-full object-cover"
+                      src="./assets/img4.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        data-color="cyan"
+        class="craft section w-full flex gap-10 flex-col lg:flex-row justify-between items-start px-10 py-10 relative"
+      >
+        <div class="ltext w-full lg:w-[40%] lg:sticky top-0 left-0">
+          <p
+            class="text-xl lg:text-3xl font-normal leading-[1.8rem] lg:leading-[2.5rem]"
+          >
+            Significo is a custom health software developer founded on the
+            belief that technology can transform healthcare to put people first.
+            We put humanity back at the center of healthcare by simplifying
+            complexity, accelerating capacity, and improving outcomes.
+          </p>
+          <h1
+            class="text-[2.5rem] lg:text-[5rem] leading-[3.5rem] lg:leading-[6.5rem] mt-10 lg:mt-20 font-[Pp_Neue_Machina] mb-10"
+          >
+            We Craft Human-Centric Health Software
+          </h1>
+          <div
+            class="w-fit px-7 py-5 lg:px-10 lg:py-5 border-[1px] border-[--dcyan]"
+          >
+            <div class="masker overflow-hidden">
+              <span class="inline-block font-medium">Our Solutions</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="cards w-full lg:w-1/2 flex flex-col items-end gap-12 pt-[30%] pr-5"
+        >
+          <div
+            class="flex flex-col-reverse lg:flex-row lg:justify-between lg:items-start hover:bg-black hover:text-[--cyan] transition duration-300 ease-in-out transform hover:scale-105 border border-[--dcyan] w-full lg:w-[78%] lg:hover:w-[80%] lg:px-10 px-6 py-8"
+          >
+            <div class="text">
+              <h1 class="text-[1.6rem] font-medium mb-5">
+                Digital Health Innovation
+              </h1>
+              <p class="text-lg font-medium leading-[1.5rem] w-full lg:w-[70%]">
+                We are on a mission to transform health technology and impact
+                lives at scale, by building compliant and secure solutions that
+                help people.
+              </p>
+            </div>
+            <div class="icon w-fit lg:w-[10rem] h-[5rem]">
+              <svg
+                width="100%"
+                height="100%"
+                viewBox="0 0 64 64"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.2"
+                  d="M32 54C32 54 7 40 7 23C7.00051 19.9954 8.04163 17.0836 9.94636 14.7598C11.8511 12.436 14.5019 10.8436 17.448 10.2534C20.3941 9.66312 23.4537 10.1114 26.1066 11.5221C28.7596 12.9328 30.842 15.2187 32 17.9913L32 17.9913C33.1579 15.2187 35.2404 12.9328 37.8934 11.5221C40.5463 10.1114 43.6059 9.66312 46.552 10.2534C49.4981 10.8436 52.1489 12.436 54.0536 14.7598C55.9584 17.0836 56.9995 19.9954 57 23C57 40 32 54 32 54Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M8 32H18L22 26L30 38L34 32H40"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M7.02857 23.9984C7.00965 23.6668 7.00013 23.334 7 23C7.00051 19.9954 8.04163 17.0836 9.94636 14.7598C11.8511 12.436 14.5019 10.8436 17.448 10.2534C20.3941 9.66312 23.4537 10.1114 26.1066 11.5221C28.7596 12.9328 30.842 15.2187 32 17.9913L32 17.9913C33.1579 15.2187 35.2404 12.9328 37.8934 11.5221C40.5463 10.1114 43.6059 9.66312 46.552 10.2534C49.4981 10.8436 52.1489 12.436 54.0536 14.7598C55.9584 17.0836 56.9995 19.9954 57 23C57 40 32 54 32 54C32 54 22.0138 48.4078 14.6644 40.0003"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div
+            class="flex flex-col-reverse lg:flex-row lg:justify-between lg:items-start hover:bg-black hover:text-[--cyan] transition duration-300 ease-in-out transform hover:scale-105 border border-[--dcyan] w-full lg:w-[78%] lg:hover:w-[80%] lg:px-10 px-6 py-8"
+          >
+            <div class="text">
+              <h1 class="text-[1.6rem] font-medium mb-5">Suite of Products</h1>
+              <p class="text-lg font-medium leading-[1.5rem] w-full lg:w-[70%]">
+                We craft products that are available for licensing and
+                customization. We’ve built recommendation engines, exercise and
+                nutrition coaches, and caregiver tools.
+              </p>
+            </div>
+            <div class="icon w-fit lg:w-[10rem] h-[5rem]">
+              <svg
+                width="100%"
+                height="100%"
+                viewBox="0 0 64 64"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.2"
+                  d="M53 10H39V52H53V10Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M57 52H7"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M25 52V22H39"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M53 10H39V52H53V10Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M11 52V34H25"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div
+            class="flex flex-col-reverse lg:flex-row lg:justify-between lg:items-start hover:bg-black hover:text-[--cyan] transition duration-300 ease-in-out transform hover:scale-105 border border-[--dcyan] w-full lg:w-[78%] lg:hover:w-[80%] lg:px-10 px-6 py-8"
+          >
+            <div class="text">
+              <h1 class="text-[1.6rem] font-medium mb-5">
+                Collaborative Partnerships
+              </h1>
+              <p class="text-lg font-medium leading-[1.5rem] w-full lg:w-[70%]">
+                We are committed to long-term partnership and tailored,
+                evidence-based solutions. We offer decades of experience
+                navigating the complexities of the healthcare industry.
+              </p>
+            </div>
+            <div class="icon w-fit lg:w-[10rem] h-[5rem]">
+              <svg
+                width="100%"
+                height="100%"
+                viewBox="0 0 64 64"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.2"
+                  d="M50 38.2155L40.8007 47.4147C40.5565 47.659 40.2532 47.8358 39.9204 47.928C39.5875 48.0201 39.2365 48.0246 38.9014 47.9408L24.4122 44.3185C24.1404 44.2506 23.886 44.1263 23.6653 43.9537L10 33.268L18.1436 17.9475L30.9736 14.2071C31.4319 14.0735 31.9229 14.1082 32.3578 14.3051L41 18.2155H35.8284C35.5658 18.2155 35.3057 18.2672 35.0631 18.3677C34.8204 18.4682 34.5999 18.6155 34.4142 18.8012L24.6306 28.5848C24.428 28.7875 24.2713 29.0313 24.1711 29.2997C24.0709 29.5682 24.0295 29.855 24.0498 30.1408C24.0702 30.4267 24.1517 30.7048 24.2888 30.9564C24.426 31.208 24.6156 31.4271 24.8448 31.5991L26.2 32.6155C27.5848 33.654 29.269 34.2155 31 34.2155C32.731 34.2155 34.4152 33.654 35.8 32.6155L39 30.2155L50 38.2155Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M60.1794 30.4462L54 33.5359L46 18.2154L52.2423 15.0942C52.7113 14.8597 53.2536 14.8188 53.7525 14.9802C54.2514 15.1416 54.6669 15.4925 54.9096 15.9573L61.0578 27.7316C61.1808 27.967 61.2556 28.2246 61.2779 28.4892C61.3002 28.7539 61.2696 29.0204 61.1878 29.2731C61.1061 29.5258 60.9748 29.7596 60.8016 29.9611C60.6285 30.1625 60.417 30.3274 60.1794 30.4462V30.4462Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M10.0011 33.2681L3.8217 30.1784C3.58414 30.0596 3.37261 29.8947 3.19947 29.6932C3.02633 29.4918 2.89504 29.258 2.81327 29.0052C2.7315 28.7525 2.70088 28.4861 2.7232 28.2214C2.74552 27.9568 2.82033 27.6992 2.94327 27.4638L9.09151 15.6895C9.33421 15.2247 9.74973 14.8738 10.2486 14.7124C10.7475 14.551 11.2898 14.5919 11.7588 14.8264L18.0011 17.9475L10.0011 33.2681Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M54 33.5359L50 38.2154L40.8007 47.4147C40.5565 47.6589 40.2532 47.8357 39.9204 47.9279C39.5875 48.0201 39.2365 48.0245 38.9014 47.9407L24.4122 44.3184C24.1404 44.2505 23.886 44.1262 23.6653 43.9537L10 33.2679"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M50 38.2155L39 30.2155L35.8 32.6155C34.4152 33.654 32.7309 34.2155 31 34.2155C29.269 34.2155 27.5848 33.654 26.2 32.6155L24.8448 31.5991C24.6156 31.4271 24.4259 31.208 24.2888 30.9564C24.1516 30.7048 24.0701 30.4267 24.0498 30.1408C24.0295 29.855 24.0709 29.5682 24.1711 29.2997C24.2713 29.0313 24.428 28.7875 24.6306 28.5849L34.4142 18.8012C34.5999 18.6155 34.8204 18.4682 35.063 18.3677C35.3057 18.2672 35.5658 18.2155 35.8284 18.2155H46"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M18.1433 17.9475L30.9733 14.2071C31.4316 14.0735 31.9226 14.1082 32.3576 14.3051L40.9997 18.2155"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M28 53.2154L20.4651 51.3317C20.1594 51.2552 19.876 51.1076 19.6381 50.9008L14 46"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div
+            class="flex flex-col-reverse lg:flex-row lg:justify-between lg:items-start hover:bg-black hover:text-[--cyan] transition duration-300 ease-in-out transform hover:scale-105 border border-[--dcyan] w-full lg:w-[78%] lg:hover:w-[80%] lg:px-10 px-6 py-8"
+          >
+            <div class="text">
+              <h1 class="text-[1.6rem] font-medium mb-5">Data Solutions</h1>
+              <p class="text-lg font-medium leading-[1.5rem] w-full lg:w-[70%]">
+                We harness health data in a secure and standardized manner,
+                encouraging data-driven innovation, collaboration, and
+                treatment.
+              </p>
+            </div>
+            <div class="icon w-fit lg:w-[10rem] h-[5rem]">
+              <svg
+                width="100%"
+                height="100%"
+                viewBox="0 0 64 64"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.2"
+                  d="M52 22H12C10.8954 22 10 22.8954 10 24V52C10 53.1046 10.8954 54 12 54H52C53.1046 54 54 53.1046 54 52V24C54 22.8954 53.1046 22 52 22Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M52 22H12C10.8954 22 10 22.8954 10 24V52C10 53.1046 10.8954 54 12 54H52C53.1046 54 54 53.1046 54 52V24C54 22.8954 53.1046 22 52 22Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M23 22V13C23 10.6131 23.9482 8.32387 25.636 6.63604C27.3239 4.94821 29.6131 4 32 4C34.3869 4 36.6761 4.94821 38.364 6.63604C40.0518 8.32387 41 10.6131 41 13V22"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M32 41C33.6569 41 35 39.6569 35 38C35 36.3431 33.6569 35 32 35C30.3431 35 29 36.3431 29 38C29 39.6569 30.3431 41 32 41Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-color="salmon" class="real section w-full px-10">
+        <div class="cont h-[400vh] relative">
+          <div
+            class="slides overflow-hidden sticky top-0 left-0 flex gap-20 w-full h-[100vh]"
+          >
+            <div
+              class="slide w-full flex mt-20 sm:mt-0 items-start sm:items-center justify-center h-screen flex-shrink-0"
+            >
+              <div class="text font-[Pp_Neue_Machina]">
+                <h1 class="text-4xl sm:text-7xl lg:text-8xl">Real talk,</h1>
+                <h1 class="text-4xl sm:text-7xl lg:text-8xl">Real impact</h1>
+              </div>
+              <div
+                class="image absolute top-1/3 sm:top-1/2 right-0 rounded-full overflow-hidden translate-x-1/2 -translate-y-1/2 w-[13rem] h-[13rem] sm:w-[20rem] sm:h-[20rem] bg-red-600"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="./assets/image1.avif"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="slide w-full h-screen flex flex-row justify-center items-center flex-shrink-0 relative"
+            >
+              <div
+                class="img1 absolute z-[3] left-[15%] top-[63%] rounded-full overflow-hidden w-[8rem] h-[8rem] sm:w-[12rem] sm:h-[12rem] lg:w-[15rem] lg:h-[15rem] bg-red-500"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="./assets/image2.avif"
+                  alt=""
+                />
+              </div>
+              <div
+                class="img1 absolute z-[3] left-1/2 top-0 -translate-y-1/2 -translate-x-1/2 rounded-full overflow-hidden w-[13rem] h-[13rem] sm:w-[20rem] sm:h-[20rem] lg:w-[25rem] lg:h-[25rem] bg-red-500"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="./assets/image3.avif"
+                  alt=""
+                />
+              </div>
+              <div class="w-[60%] font-[Pp_Neue_Machina] text-center relative">
+                <h3
+                  class="w-full sm:w-1/3 text-left font-semibold sm:leading-5 lg:leading-7 sm:text-[1rem] lg:text-[1.3rem] tracking-tight absolute -top-[180%] left-[30%] sm:top-0 sm:left-0 -translate-y-1/2 -translate-x-1/3"
+                >
+                  We're on a mission to impact as many lives as possible and
+                  build a better company while we do it. Here's our progress.
+                </h3>
+                <h1
+                  class="-ml-[20%] sm:-ml-[0%] font-semibold text-[3rem] sm:text-[7rem] lg:text-[12rem] leading-none text-white"
+                >
+                  20.4M
+                </h1>
+                <h3
+                  class="-ml-[20%] sm:-ml-[0%] sm:z-[0] sm:static z-[9] absolute text-base sm:text-2xl lg:text-5xl leading-none tracking-tight"
+                >
+                  Real people - real lives - we have built products and
+                  solutions for.
+                </h3>
+              </div>
+              <div
+                class="image absolute top-1/2 right-0 rounded-full overflow-hidden translate-x-1/2 -translate-y-1/2 w-[10rem] h-[10rem] sm:w-[20rem] sm:h-[20rem] bg-red-600"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="./assets/image4.avif"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="slide w-full h-screen flex items-center justify-center flex-shrink-0 relative"
+            >
+              <img
+                class="w-[40vw] sm:w-[20vw] absolute -top-[3.5vw] left-[40%]"
+                src="./assets/TreeStructure.png"
+                alt=""
+              />
+              <img
+                class="w-[50vw] sm:w-[23vw] absolute left-[30%] top-[63%]"
+                src="./assets/RocketLaunch.png"
+                alt=""
+              />
+              <img
+                class="w-[50vw] sm:w-[20vw] absolute -right-[30%] sm:right-0 top-[40%] sm:top-[50%]"
+                src="./assets/lightning.png"
+                alt=""
+              />
+              <div class="w-[60%] font-[Pp_Neue_Machina] text-center relative">
+                <h3
+                  class="w-full sm:w-1/3 text-left font-semibold sm:leading-7 lg:leading-10 text-[1.1rem] lg:text-[1.3rem] tracking-tight absolute -top-[50%] sm:top-0 left-0 -translate-y-1/2 -translate-x-1/3"
+                >
+                  Our team is global and diverse, because our individual
+                  experiences make us stronger.
+                </h3>
+                <h1
+                  class="font-semibold text-[5rem] sm:text-[8rem] lg:text-[12rem] leading-none text-white"
+                >
+                  49%
+                </h1>
+                <h3 class="sm:text-4xl lg:text-5xl leading-none tracking-tight">
+                  Expert Women in Tech.
+                </h3>
+              </div>
+            </div>
+            <div
+              class="slide hidden w-full h-screen sm:flex items-center justify-center flex-shrink-0 relative"
+            >
+              <img
+                class="w-[13vw] h-[12vw] absolute -top-[1.5vw] left-[30%] rounded-full"
+                src="./assets/monument1.avif"
+                alt=""
+              />
+              <img
+                class="w-[20vw] h-[20vw] rounded-full absolute left-[20%] top-[70%]"
+                src="./assets/monument2.webp"
+                alt=""
+              />
+              <img
+                class="w-[13vw] h-[13vw] rounded-full absolute right-10 top-[55%]"
+                src="./assets/monument3.webp"
+                alt=""
+              />
+              <div class="w-[60%] font-[Pp_Neue_Machina] text-center">
+                <h1
+                  class="font-semibold sm:text-[8rem] lg:text-[12rem] leading-none text-white"
+                >
+                  13
+                </h1>
+                <h3 class="text-4xl lg:text-5xl leading-none tracking-tight">
+                  Nationalities Represented on Our <br />
+                  Team.
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-color="white" class="team section font-[Pp_Neue_Machina] pt-48">
+        <h1 class="text-center tracking-tight text-4xl sm:text-8xl">
+          Our Team
+        </h1>
+        <div class="list w-full px-10 mt-10">
+          <div
+            class="listelem border-b-2 border-black w-full py-[3rem] relative"
+          >
+            <div
+              class="relative z-[3] flex flex-col sm:flex-row items-end sm:items-center justify-between"
+            >
+              <div class="left flex gap-10 sm:gap-20">
+                <h3 class="text-3xl sm:text-5xl">01</h3>
+                <h1 class="text-2xl sm:text-5xl">Dr. Ric McCartney</h1>
+              </div>
+              <h3 class="text-xl sm:text-3xl">CEO</h3>
+            </div>
+            <div
+              class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-500"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="./assets/team1.avif"
+                alt=""
+              />
+            </div>
+            <div
+              class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0%] bg-blue-600"
+            ></div>
+          </div>
+          <div
+            class="listelem border-b-2 border-black w-full py-[3rem] relative"
+          >
+            <div
+              class="relative z-[3] flex flex-col sm:flex-row items-end sm:items-center justify-between"
+            >
+              <div class="left flex gap-[31vw] sm:gap-20">
+                <h3 class="text-3xl sm:text-5xl">02</h3>
+                <h1 class="text-2xl sm:text-5xl">Chris Koha</h1>
+              </div>
+              <h3 class="text-xl sm:text-3xl">COO</h3>
+            </div>
+            <div
+              class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-500"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="./assets/team2.avif"
+                alt=""
+              />
+            </div>
+            <div
+              class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0%] bg-blue-600"
+            ></div>
+          </div>
+          <div
+            class="listelem border-b-2 border-black w-full py-[3rem] relative"
+          >
+            <div
+              class="relative z-[3] flex flex-col sm:flex-row items-end sm:items-center justify-between"
+            >
+              <div class="left flex gap-[20vw] sm:gap-20">
+                <h3 class="text-3xl sm:text-5xl">03</h3>
+                <h1 class="text-2xl sm:text-5xl">Caroline Nieto</h1>
+              </div>
+              <h3 class="text-xl sm:text-3xl text-end">
+                Chief Product Officer
+              </h3>
+            </div>
+            <div
+              class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-500"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="./assets/team3.avif"
+                alt=""
+              />
+            </div>
+            <div
+              class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0%] bg-blue-600"
+            ></div>
+          </div>
+          <div
+            class="listelem border-b-2 border-black w-full py-[3rem] relative"
+          >
+            <div
+              class="relative z-[3] flex flex-col sm:flex-row items-end sm:items-center justify-between"
+            >
+              <div class="left flex gap-[19vw] sm:gap-20">
+                <h3 class="text-3xl sm:text-5xl">04</h3>
+                <h1 class="text-2xl sm:text-5xl">Victor Albertos</h1>
+              </div>
+              <h3 class="text-xl sm:text-3xl">CTO</h3>
+            </div>
+            <div
+              class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-500"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="./assets/team4.avif"
+                alt=""
+              />
+            </div>
+            <div
+              class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0%] bg-blue-600"
+            ></div>
+          </div>
+          <div
+            class="listelem border-b-2 border-black w-full py-[3rem] relative"
+          >
+            <div
+              class="relative z-[3] flex flex-col sm:flex-row items-end sm:items-center justify-between"
+            >
+              <div class="left flex gap-[14vw] sm:gap-20">
+                <h3 class="text-3xl sm:text-5xl">05</h3>
+                <h1 class="text-2xl sm:text-5xl">Dr. Jana Schmidt</h1>
+              </div>
+              <h3 class="text-xl sm:text-3xl text-end">
+                Chief Innovation Officer
+              </h3>
+            </div>
+            <div
+              class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-500"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="./assets/team5.avif"
+                alt=""
+              />
+            </div>
+            <div
+              class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0%] bg-blue-600"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div
+        data-color="black"
+        class="para section w-full h-[150vh] flex flex-col lg:flex-row items-start justify-center px-12 py-32 mt-[120%] sm:mt-[20%] lg:mt-[0%]"
+      >
+        <div
+          class="text w-full lg:w-[50%] flex flex-col items-center justify-center"
+        >
+          <h3
+            class="textpara text-xl sm:text-3xl font-light text-center leading-[2rem] sm:leading-[2.8rem]"
+          >
+            Working with the Significo team has been such a pleasure! We took on
+            a significant project to rebuild our entire platform and the team
+            approached the project with our best interests in mind. They
+            continue to prioritize the end user experience and offer amazing
+            expertise in all of the areas we lack internally. I would personally
+            be lost without this team, their ability to problem solve, their
+            openness to feedback and desire to build the product like it is
+            their own.
+          </h3>
+          <div
+            class="pers flex flex-col items-center justify-center mt-10 gap-5"
+          >
+            <div
+              class="image w-32 h-32 bg-red-500 overflow-hidden rounded-full"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="./assets/team2.avif"
+                alt=""
+              />
+            </div>
+            <h1 class="text-2xl sm:text-3xl">Miranda Ernst</h1>
+            <h3>Product Manager @ HealthCheck360</h3>
+          </div>
+        </div>
+        <div
+          class="w-full lg:w-[50%] flex flex-col items-center justify-center mt-20 lg:mt-[30%]"
+        >
+          <h3
+            class="textpara2 text-xl sm:text-3xl font-light text-center leading-[2rem] sm:leading-[2.8rem]"
+          >
+            Working with the Significo team has been such a pleasure! We took on
+            a significant project to rebuild our entire platform and the team
+            approached the project with our best interests in mind. They
+            continue to prioritize the end user experience and offer amazing
+            expertise in all of the areas we lack internally. I would personally
+            be lost without this team, their ability to problem solve, their
+            openness to feedback and desire to build the product like it is
+            their own.
+          </h3>
+          <div
+            class="pers flex flex-col items-center justify-center mt-10 gap-5"
+          >
+            <div
+              class="image w-32 h-32 bg-red-500 overflow-hidden rounded-full"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="./assets/team3.avif"
+                alt=""
+              />
+            </div>
+            <h1 class="text-2xl sm:text-3xl">Caroline Nieto</h1>
+            <h3>Product Manager @ HealthCheck360</h3>
+          </div>
+        </div>
+      </div>
+      <div
+        data-color="white"
+        class="capsules section w-full h-screen flex flex-col lg:flex-row items-start justify-between px-10 mt-[110%] sm:mt-[20%] lg:mt-[25%] sm:px-32"
+      >
+        <div
+          class="left w-full lg:w-1/3 h-full flex flex-col justify-between py-10"
+        >
+          <h1
+            class="text-xl sm:text-2xl lg:text-3xl leading-[2rem] sm:leading-[2.4rem] lg:leading-[2.8rem]"
+          >
+            Stay up-to-date on the latest healthcare innovations and thought
+            leadership.
+          </h1>
+          <div class="heading font-[Pp_Neue_Machina]">
+            <h1 class="text-4xl sm:text-6xl lg:text-8xl">
+              Explore Our Insights
+            </h1>
+            <div class="w-fit mt-10 px-10 py-5 border-[1px] border-black">
+              <div class="masker overflow-hidden">
+                <span class="inline-block font-medium">Our Solutions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="right font-[Pp_Neue_Machina] h-full flex flex-col sm:flex-row items-center gap-20 px-12 sm:px-0"
+        >
+          <div
+            class="capsule -rotate-[16deg] flex flex-col items-center py-10 px-6 rounded-full border-[1px] border-black"
+          >
+            <div
+              class="w-[50vw] h-[50vw] sm:w-60 sm:h-60 lg:w-80 lg:h-80 bg-yellow-500 overflow-hidden rounded-full"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="./assets/capsule1.png"
+                alt=""
+              />
+            </div>
+            <div class="text text-center mt-10">
+              <h3 class="text-base sm:text-xl lg:text-3xl font-semibold">
+                Equity in Tech: An
+              </h3>
+              <h3 class="text-base sm:text-xl lg:text-3xl font-semibold">
+                International Women's
+              </h3>
+              <h3 class="text-base sm:text-xl lg:text-3xl font-semibold">
+                Day Conversation with
+              </h3>
+              <h3 class="text-base sm:text-xl lg:text-3xl font-semibold">
+                Caroline Nieto,
+              </h3>
+              <h3 class="text-base sm:text-xl lg:text-3xl font-semibold">
+                Significo's CPO
+              </h3>
+            </div>
+            <button
+              class="bg-purple-400 text-black px-4 rounded-full py-3 text-sm sm:text-base mt-10 mb-20"
+            >
+              Thought Leadership
+            </button>
+          </div>
+          <div
+            class="capsule -rotate-[16deg] translate-y-60 flex flex-col items-center py-10 px-6 rounded-full border-[1px] border-black"
+          >
+            <button
+              class="bg-purple-400 text-black px-4 rounded-full py-3 text-sm sm:text-base mt-0 mb-8"
+            >
+              Thought Leadership
+            </button>
+            <div class="text text-center mt-10 mb-20">
+              <h3 class="text-base sm:text-xl lg:text-3xl font-semibold">
+                How to Use Digital
+              </h3>
+              <h3 class="text-base sm:text-xl lg:text-3xl font-semibold">
+                Health Interventions
+              </h3>
+              <h3 class="text-base sm:text-xl lg:text-3xl font-semibold">
+                to Align Employee &
+              </h3>
+              <h3 class="text-base sm:text-xl lg:text-3xl font-semibold">
+                Organizational Goals
+              </h3>
+            </div>
+            <div
+              class="w-[50vw] h-[50vw] sm:w-60 sm:h-60 lg:w-80 lg:h-80 bg-yellow-500 overflow-hidden rounded-full"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="./assets/capsule2.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        data-color="black"
+        id="footer"
+        class="section relative w-full h-screen text-[#e1ded5] mt-32 lg:mt-0"
+      >
+        <div
+          id="footer-top"
+          class="hidden sm:flex flex-col lg:flex-row gap-14 lg:gap-0 justify-between items-start w-full h-[30%] px-10 lg:px-[3vw] py-[5vw]"
+        >
+          <div
+            id="footer-top-left"
+            class="flex justify-between items-start gap-[15vw] text-[1.7vw] lg:text-[1.2vw] leading-[3vw] lg:leading-[2.7vw]"
+          >
+            <div id="first">
+              <h3 class="text-[2.5vw] lg:text-[1.5vw] font-medium mb-6">
+                Solutions
+              </h3>
+              <h3>Provider Solutions</h3>
+              <h3>Healthtech Solutions</h3>
+              <h3>Payor Solutions</h3>
+              <h3>Pharma Solutions</h3>
+            </div>
+            <div id="second">
+              <h3 class="text-[2.5vw] lg:text-[1.5vw] font-medium mb-6">
+                Insights
+              </h3>
+              <h3>Case Studies</h3>
+              <h3>Thought Leadership</h3>
+              <h3>News</h3>
+              <h3>Resources</h3>
+            </div>
+            <div id="third">
+              <h3 class="text-[2.5vw] lg:text-[1.5vw] font-medium mb-6">
+                About
+              </h3>
+              <h3>Team</h3>
+              <h3>Careers</h3>
+            </div>
+          </div>
+          <div id="footer-top-right">
+            <h3 class="text-[1.7vw] lg:text-[1.4vw] mb-10 lg:mb-36">
+              Austin, Texas, Berlin, Germany
+            </h3>
+            <button
+              class="bg-[#FF6014] text-black px-14 lg:px-28 rounded-md text-[1.7vw] lg:text-[1vw] font-semibold py-4 lg:py-5"
+            >
+              CONTACT US
+            </button>
+          </div>
+        </div>
+
+        <h1
+          class="hidden sm:block absolute bottom-0 left-[3vw] text-[#fffcf1] font-thin text-[27vw] leading-[27vw]"
+        >
+          <span class="inline-block">S</span><span class="inline-block">i</span
+          ><span class="inline-block">g</span><span class="inline-block">n</span
+          ><span class="inline-block">i</span><span class="inline-block">f</span
+          ><span class="inline-block">i</span><span class="inline-block">c</span
+          ><span class="inline-block">o</span>
+        </h1>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+      integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
